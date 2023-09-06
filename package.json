@@ -1,0 +1,23 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "Tic tac toe through react",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tictactoe"
+  },
+  "keywords": [
+    "tic",
+    "tac",
+    "toe",
+    "game",
+    "react",
+    "learn"
+  ],
+  "author": "ullas kakanadan",
+  "license": "ISC"
+}
