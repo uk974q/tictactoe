@@ -2,7 +2,6 @@
   "name": "tictactoe",
   "version": "1.0.0",
   "description": "Tic tac toe through react",
-  "main": "App.js",
   "homepage": "http://uk974q.github.io/tictactoe",
   "scripts": {
     "start": "parcel index.html",
