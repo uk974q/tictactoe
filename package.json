@@ -4,11 +4,13 @@
   "description": "Tic tac toe through react",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "tictactoe"
+    "url": "https://github.com/uk974q/tictactoe.git"
   },
   "keywords": [
     "tic",
@@ -19,5 +21,19 @@
     "learn"
   ],
   "author": "ullas kakanadan",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions"
+  ],
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "postcss": "^8.4.29",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3"
+  }
 }
