@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Tic tac toe through react",
   "main": "App.js",
+  "homepage": "http://uk974q.github.io/tictactoe",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "jest"
+    "test": "jest",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "repository": {
     "type": "git",
