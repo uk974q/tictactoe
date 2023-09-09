@@ -7,8 +7,8 @@
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "maintained node versions"
   ],
   "dependencies": {
+    "babel-preset-react": "^6.24.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
